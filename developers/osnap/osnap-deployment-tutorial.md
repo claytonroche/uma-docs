@@ -47,6 +47,49 @@ Once deployed, select the contract on the left sidebar of the Zodiac App. The â€
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2023-02-15 at 5.35.00 PM.png" alt=""><figcaption></figcaption></figure>
 
-**Next Steps:**
+**Configuring oSnap with Snapshot**
 
-The next tutorial will demonstrate how to use the deployed oSnap module to execute Snapshot transaction data.
+If you do not have a Snapshot space created, follow [these instructions](https://docs.snapshot.org/spaces/create) to get started. Otherwise, click the 'Settings' option on the sidebar for the Snapshot space you want to add your oSnap module to.
+
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+
+Click 'Advanced' on the sidebar. Then in the Plugins container, click 'Add plugin'. In the modal that opens, click the 'Gnosis SafeSnap' option.
+
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+Another modal will open that is used to configure the SafeSnap plugin that matches the below:
+
+```
+{
+  "safes": [
+    {
+      "network": "CHAIN_ID",
+      "realityAddress": "0xSWITCH_WITH_REALITY_MODULE_ADDRESS",
+      "umaAddress": "0xSWITCH_WITH_UMA_MODULE_ADDRESS"
+    }
+  ]
+}
+```
+
+To configure an oSnap module,  you need to update the `network` and `umaAddress`. For `umaAddress`, input your oSnap module contract address as `umaAddress`. The `network` parameter is the chain ID that your Safe and oSnap module contract are deployed on. You can use the table below to find the chain ID or use [https://chainlist.org/](https://chainlist.org/).
+
+<table><thead><tr><th width="182">Network Name</th><th>Chain ID</th></tr></thead><tbody><tr><td>Goerli</td><td>5</td></tr><tr><td>Mainnet</td><td>1</td></tr><tr><td>Polygon</td><td>137</td></tr><tr><td>Optimism</td><td>10</td></tr><tr><td>Arbitrum</td><td>42161</td></tr><tr><td>Avalanche</td><td>43114</td></tr></tbody></table>
+
+This configuration uses the oSnap module contract `0x0696a608DEB38ec0494165E5CDE6e0C518c63044` on Goerli:
+
+```json
+{
+  "safes": [
+    {
+      "network": "5",
+      "realityAddress": "0xSWITCH_WITH_REALITY_MODULE_ADDRESS",
+      "umaAddress": "0x82FDCED1c10CA20fEa9A202a39255C89ae89C548"
+    }
+  ]
+}
+```
+
+After clicking the 'Add' button, your changes will not be made until you click 'Save' and sign the transaction.
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
