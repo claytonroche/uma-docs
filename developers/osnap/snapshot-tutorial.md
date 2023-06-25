@@ -1,8 +1,10 @@
-# ⚡ Snapshot Tutorial
+# ⚡ Snapshot Proposal Tutorial
 
-**Adding Transaction Data to Proposal**
+**Adding Transactions to Your Snapshot Proposal**
 
-Now that the oSnap module has been configured with Snapshot, you can use the transaction builder when creating a Snapshot proposal. The example proposal below includes an ETH transfer of 0.000005.
+Now that the oSnap module has been configured with Snapshot, you can use the transaction builder when creating a Snapshot proposal. This transaction can be executed on-chain if the Snapshot vote successfully passes.
+
+The example proposal below proposes a transaction that will transfer 0.000005 ETH if the Snapshot proposal passes.
 
 <figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
