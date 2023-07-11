@@ -13,4 +13,4 @@ The process of integrating oSnap includes:
 * An overview on [verifying and disputing](osnap-proposal-verification.md) proposed transactions
 * Updating the oSnap using [admin functions](osnap-module-admin-functions.md)
 
-Or you can get a high-level overview with our [Quick Start guide](osnap-quick-start.md).
+Start the integration now using our [Quick Start Guide](https://docs.uma.xyz/developers/osnap/osnap-quick-start) or [chat with the team](https://airtable.com/shrW1iJRbU4tEI9go) for more info.

@@ -32,4 +32,8 @@ Done! Now, for your first proposal:
 
 You can start using oSnap today and announce to your DAO the good news of its newfound superpowers.
 
-Reach out to our team on the [UMA Discord Server](https://discord.com/invite/jsb9XQJ) or [integrations@umaproject.org](mailto:integrations@umaproject.org) for more information and developer support.
+Want to talk to the team?
+
+* Drop a message in the [UMA Discord Server](https://discord.com/invite/jsb9XQJ)
+* Send an email to integrations@umaproject.org
+* Or drop your details in [this form](https://airtable.com/shrW1iJRbU4tEI9go) and we'll reach out
