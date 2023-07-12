@@ -22,7 +22,7 @@ To complete this tutorial you will need**:**
 
 1. Metamask installed in a Chromium based browser (such as [Google Chrome](https://www.google.com/chrome/)) If you don't have it already, you can get Metamask [here](https://metamask.io/).
 2. A wallet set up in Metamask.
-3. [Görli](https://goerli.net/) test ETH to send test transactions. You can get GETH from one of these faucets: [Telegram Authenticated](https://goerli-faucet.com/), [Twitter Authenticated](https://goerli-faucet.mudit.blog/), [Alchemy](https://goerlifaucet.com/), [slock.it](https://goerli-faucet.slock.it/).
+3. [Görli](https://goerli.net/) test ETH to send test transactions. You can get GETH from [Alchemy's faucet](https://goerlifaucet.com/).
 
 ### Asserting a truth
 
